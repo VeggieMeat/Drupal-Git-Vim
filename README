@@ -1,6 +1,6 @@
 Installation:
 
-Place the doc, plugin, and syntax folders in your .vim directory.
+Extract to your .vim directory
 
 Create a symlink from .vimrc to .vim/.vimrc
   ln -s ~/.vim/.vimrc ~/.vimrc
