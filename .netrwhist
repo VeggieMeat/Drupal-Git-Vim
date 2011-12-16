@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/veggiemeat/Projects/Current/Allen Public Safety Technologies/WORKING/theme/apst/templates'
+let g:netrw_dirhist_2='/home/veggiemeat/.config/openbox'
+let g:netrw_dirhist_3='/home/veggiemeat/Projects/Current/Allen Public Safety Technologies/WORKING/theme/apst/css'

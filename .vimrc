@@ -9,6 +9,11 @@ set foldmethod=indent
 set foldnestmax=1
 set scrolloff=5
 
+" fix the autoindent issue on paste
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
 " set git status message
 set laststatus=2
 set statusline=%<\ \[\[%{GitBranch()}\]\]\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
