@@ -2,5 +2,16 @@ Installation:
 
 Extract to your .vim directory
 
-Create a symlink from .vimrc to .vim/.vimrc
+Create a symlink from ~/.vimrc to ~/.vim/.vimrc
   ln -s ~/.vim/.vimrc ~/.vimrc
+
+Keyboard Shortcut List
+
+F2: Toggle auto-indent. When auto-indent has been toggled off by pressing F2,
+    "(paste)" will be displayed in Vim's command line to show that your Vim
+    environment is now in PASTE mode. This allows you to paste content into
+    Vim without auto-indent messing it up.
+
+F5: Enable Vim to listen for Xdebug connection. You have 10 seconds to hit
+    your project in the browser with "?XDEBUG_SESSION_START=1" appened to
+    the end of the URL.
