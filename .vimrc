@@ -45,3 +45,7 @@ autocmd FilterWritePre * :call StripWhitespace()
 " Highlight redundant whitespaces and tabs.
 highlight RedundantSpaces ctermbg=red guibg=red
 match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
+
+" syntastic
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['php', 'css', 'html', 'xhtml', 'javascript'] }
+
