@@ -64,6 +64,9 @@ let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
 let NERDTreeKeepTreeInNewTab=1
 
+" Edit vimrc in a new tab
+nmap <leader>v :tabedit $MYVIMRC<CR>
+
 " Source the vimrc file after saving it
 if has("autocmd")
   augroup myvimrchooks
