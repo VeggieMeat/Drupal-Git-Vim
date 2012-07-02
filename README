@@ -1,6 +1,6 @@
 Installation:
 
-Extract to your .vim directory
+Deploy to your ~/.vim/ directory.
 
 Create a symlink from ~/.vimrc to ~/.vim/.vimrc
   ln -s ~/.vim/.vimrc ~/.vimrc
@@ -13,5 +13,11 @@ F2: Toggle auto-indent. When auto-indent has been toggled off by pressing F2,
     Vim without auto-indent messing it up.
 
 F5: Enable Vim to listen for Xdebug connection. You have 10 seconds to hit
-    your project in the browser with "?XDEBUG_SESSION_START=1" appened to
+    your project in the browser with "?XDEBUG_SESSION_START=1" appended to
     the end of the URL.
+
+=== KNOWN ISSUES ===
+
+It seems that the Xfce terminal emulator may not accept the F5 key for some
+reason. If that happens to you, try another terminal emulator, such as Eterm
+or (if you can't seem to get by with tmux) Terminator.
