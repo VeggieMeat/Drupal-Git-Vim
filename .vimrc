@@ -63,3 +63,12 @@ let NERDTreeChDirMode=0
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
 let NERDTreeKeepTreeInNewTab=1
+
+" Source the vimrc file after saving it
+if has("autocmd")
+  augroup myvimrchooks
+    au!
+      autocmd bufwritepost .vimrc source ~/.vimrc
+      autocmd bufwritepost .vimrc.local source ~/.vimrc.local
+    augroup END
+  endif
