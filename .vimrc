@@ -75,3 +75,6 @@ if has("autocmd")
       autocmd bufwritepost .vimrc.local source ~/.vimrc.local
     augroup END
   endif
+
+" Use :W to save a file as root instead of having to have a good memory
+:command! W w !sudo tee % >/dev/null
