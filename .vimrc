@@ -47,7 +47,7 @@ highlight RedundantSpaces ctermbg=red guibg=red
 match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
 
 " syntastic
-let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['php', 'css', 'html', 'xhtml', 'javascript'] }
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['php', 'css', 'html', 'xhtml', 'javascript'], 'passive_filetypes': [] }
 
 " remap leader to ,
 let mapleader = ','
@@ -78,3 +78,4 @@ if has("autocmd")
 
 " Use :W to save a file as root instead of having to have a good memory
 :command! W w !sudo tee % >/dev/null
+
