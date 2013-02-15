@@ -68,6 +68,7 @@ let NERDTreeKeepTreeInNewTab=1
 
 " Edit vimrc in a new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
+nmap <leader>t :TagbarToggle<CR>
 
 " Source the vimrc file after saving it
 if has("autocmd")
