@@ -16,11 +16,15 @@ F5: Enable Vim to listen for Xdebug connection. You have 10 seconds to hit
     your project in the browser with "?XDEBUG_SESSION_START=1" appended to
     the end of the URL.
 
+,cg: Regenerate tag file for project. This only works if you open the file from
+    the root of the project. Standard shortcuts for navigating CTags apply, such
+    as <C-W><C-]> to open the definition in a horizontal split.
+
 === KNOWN ISSUES ===
 
 It seems that the Xfce terminal emulator may not accept the F5 key for some
 reason. If that happens to you, try another terminal emulator, such as Eterm
 or (if you can't seem to get by with tmux) Terminator.
 
-If you don't have phpcs or drupal coding standards available you will need 
+If you don't have phpcs or drupal coding standards available you will need
 to comment out lines 51 & 52 in the .vimrc until a toggle is added.
