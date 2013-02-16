@@ -28,3 +28,7 @@ syntastic-options	syntastic.txt	/*syntastic-options*
 syntastic-statusline-flag	syntastic.txt	/*syntastic-statusline-flag*
 syntastic-syntax-checkers	syntastic.txt	/*syntastic-syntax-checkers*
 syntastic.txt	syntastic.txt	/*syntastic.txt*
+CscopeFind  cscope.txt  /*Default settings*
+CscopeGen cscope.txt  /*CscopeGen*
+CscopeList  cscope.txt  /*CscopeList*
+

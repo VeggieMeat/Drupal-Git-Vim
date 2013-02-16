@@ -85,4 +85,4 @@ if has("autocmd")
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
 nmap <silent> <leader>cg :!ctags -f ./tags --langmap="php:+.inc.module" -h ".php.inc" -R --totals=yes --tag-relative=yes --PHP-kinds=+cf-v . <CR>
-set tags=./tags,tags
+set tags=./tags;/
