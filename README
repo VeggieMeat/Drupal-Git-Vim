@@ -20,6 +20,16 @@ F5: Enable Vim to listen for Xdebug connection. You have 10 seconds to hit
     the root of the project. Standard shortcuts for navigating CTags apply, such
     as <C-W><C-]> to open the definition in a horizontal split.
 
+=== CSCOPE ===
+
+Requires cscope to be installed.
+
+To initially generate your cscope database, open a file in the root of your
+project and use ',fs'. This will ask you to confirm the directory, and it will
+generate a cscope database. After this point, you can do things such as high-
+lighting a function in a file and seeing where it gets called from by using
+',fc'.
+
 === KNOWN ISSUES ===
 
 It seems that the Xfce terminal emulator may not accept the F5 key for some
