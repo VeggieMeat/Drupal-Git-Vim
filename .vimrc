@@ -54,6 +54,9 @@ let g:syntastic_phpcs_conf="--standard=Drupal"
 " remap leader to ,
 let mapleader = ','
 
+" additional esc mapping
+inoremap jj <ESC>
+
 " NerdTree
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 map <leader>e :NERDTreeFind<CR>
